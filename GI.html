@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GI Tags of West Bengal</title>
+    <link rel="stylesheet" href="Gi.css">
+</head>
+<body>
+<header>
+    <h1>GI Tags of West Bengal</h1>
+</header>
+
+<div class="filters">
+    <input type="text" id="search" placeholder="Search GI Tag...">
+    <select id="categoryFilter">
+        <option value="">All Categories</option>
+    </select>
+    <select id="districtFilter">
+        <option value="">All Districts</option>
+    </select>
+</div>
+
+<div class="cards" id="cardContainer"></div>
+
+<div class="modal" id="imageModal">
+    <div class="modal-content">
+        <span class="close-btn" id="closeModal">×</span>
+        <img id="modalImage" src="" alt="">
+        <p id="modalDescription"></p>
+        <br>
+        <a id="mapLink" href="#" target="_blank" class="buy-btn">View Origin on Map</a>
+    </div>
+</div>
+
+<script src="Gi.js"></script>
+</body>
+</html>
